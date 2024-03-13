@@ -8,19 +8,19 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: rgb(208, 223, 223);
 }
 
 header {
   background-color: rgb(234, 234, 234);
   color: #b7b4b4;
-  padding: 30px;
-  border-bottom: 2px solid #dbdbdb;
-
-  box-shadow: 0 2px 4px #323232;
-}
-
-header h1 {
-  margin: 0;
+  padding: 22px;
+  border-bottom: 2px solid #eaeaea;
+  position: fixed;
+  box-shadow: 0 2px 4px #aeaeae;
+  width: 100%;
 }
 
 main {
@@ -28,8 +28,40 @@ main {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  max-width: 500px;
+
   margin: 0 auto;
+}
+.pesquisa {
+  background-color: rgb(234, 234, 234);
+  color: #b7b4b4;
+  padding: 12px;
+  position: fixed;
+  border-bottom: 2px solid #dbdbdb;
+  margin-top: 67px;
+  box-shadow: 0 2px 4px #bfbfbf;
+  width: 100%;
+}
+.pesquisa a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #3b3b3b;
+  padding: 3px;
+  border-radius: 9px;
+  margin-left: 25px;
+}
+.lupa-de-busca img {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 975px;
+  width: 20px;
+  height: 20px;
+}
+.imput1 input {
+  margin-left: 1000px;
+  margin-top: -25px;
+  padding: 5px;
+  position: absolute;
 }
 
 .logo1 {
@@ -47,22 +79,20 @@ main {
   position: absolute;
   width: 130px;
 }
-
-main h2 {
-  border-bottom: 2px solid #ccc;
-  width: 100%;
-  text-align: center;
-  padding-bottom: 16px;
-  color: var(--primary-color);
-}
-
-.info {
+.menu {
+  gap: 35px;
   display: flex;
-  gap: 2rem;
-}
+  flex-wrap: wrap;
 
-.info div {
-  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 2%;
+  margin-left: 415px;
+}
+.menu a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 footer {
