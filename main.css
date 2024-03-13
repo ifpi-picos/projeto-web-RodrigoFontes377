@@ -4,23 +4,24 @@
 
 body {
   margin: 0;
-  height: 100vh;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  /*height: 100vh;*/
   overflow-x: hidden;
-  background-color: rgb(208, 223, 223);
+  background-color: rgb(255, 255, 255);
 }
 
 header {
-  background-color: rgb(234, 234, 234);
+  background-color: rgb(238, 238, 238);
   color: #b7b4b4;
   padding: 22px;
-  border-bottom: 2px solid #eaeaea;
+  border-bottom: 2px solid #b1b1b1;
   position: fixed;
   box-shadow: 0 2px 4px #aeaeae;
   width: 100%;
+  display: block;
 }
 
 main {
@@ -28,16 +29,30 @@ main {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-
+  padding: 0;
   margin: 0 auto;
 }
+
+.vitrine {
+  margin: 0 auto;
+  border: 1px solid #000000;
+  margin-top: 40px;
+  width: 75%;
+  margin-left: 120px;
+}
+.veiculo {
+  padding: 65px;
+  margin-bottom: 14px;
+  border: 1px solid #f10000;
+}
+
 .pesquisa {
-  background-color: rgb(234, 234, 234);
+  background-color: rgb(240, 240, 240);
   color: #b7b4b4;
   padding: 12px;
   position: fixed;
   border-bottom: 2px solid #dbdbdb;
-  margin-top: 67px;
+  margin-top: 64px;
   box-shadow: 0 2px 4px #bfbfbf;
   width: 100%;
 }
@@ -93,6 +108,17 @@ main {
   color: #000000;
   text-decoration: none;
   font-weight: bold;
+}
+.conteudo h2 {
+  margin-top: 140px;
+  margin-right: 680px;
+}
+.conteudo veiculo {
+  padding: 500px;
+  width: 70%;
+  margin: 400px;
+  border: 1px solid #000000;
+  margin-top: 800px;
 }
 
 footer {
