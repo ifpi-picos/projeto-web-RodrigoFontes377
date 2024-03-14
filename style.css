@@ -26,6 +26,10 @@ header a {
   display: inline-block;
   transition: 0.2s;
 }
+header nav.menu-desktop a:hover {
+  color: #fff;
+  transform: scale(1.05);
+}
 header nav ul {
   list-style-type: none;
 }
@@ -42,4 +46,8 @@ header nav.menu-desktop ul li {
   border-radius: 30px;
   cursor: pointer;
   transition: 0.2s;
+}
+header .btn-contato button:hover {
+  background-color: #4a5ff7;
+  transform: scale(1.05);
 }
