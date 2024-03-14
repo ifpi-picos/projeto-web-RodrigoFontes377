@@ -22,6 +22,7 @@ header {
   box-shadow: 0 2px 4px #aeaeae;
   width: 100%;
   display: block;
+  display: flex;
 }
 
 main {
@@ -35,7 +36,6 @@ main {
 
 .vitrine {
   margin: 0 auto;
-
   margin-top: 40px;
   width: 65%;
   margin-left: 120px;
@@ -131,6 +131,38 @@ main {
   margin: 400px;
   border: 1px solid #000000;
   margin-top: 800px;
+}
+
+.conteudo-carro {
+  padding: 1px;
+  margin-left: 10px;
+}
+.conteudo-carro h2 {
+  margin-left: 20px;
+}
+.conteudo-carro h3 {
+  margin-left: 20px;
+}
+.local {
+  margin-left: 40px;
+  margin-top: 130px;
+}
+.preco {
+  margin-left: 100px;
+  margin-top: 60px;
+  display: flex;
+}
+.preco button {
+  margin-left: -125px;
+  padding: 10px;
+  margin-top: 60px;
+  border-radius: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+}
+.preco strong {
+  font-size: 40px;
 }
 
 footer {
