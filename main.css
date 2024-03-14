@@ -148,9 +148,10 @@ main {
   margin-top: 130px;
 }
 .preco {
-  margin-left: 100px;
+  margin-left: 30px;
   margin-top: 60px;
   display: flex;
+  position: static;
 }
 .preco button {
   margin-left: -125px;
