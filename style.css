@@ -12,6 +12,9 @@ body {
   max-width: 1280px;
   margin: 0 auto;
 }
+.flex {
+  display: flex;
+}
 header {
   padding: 40px 4%;
 }
@@ -50,4 +53,21 @@ header nav.menu-desktop ul li {
 header .btn-contato button:hover {
   background-color: #00bbff;
   transform: scale(1.05);
+}
+section.topo-do-site {
+  padding: 40px 4%;
+}
+
+section.topo-do-site .flex {
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+.topo-do-site h1 {
+  color: #fff;
+  font-size: 42px;
+  line-height: 40px;
+}
+.topo-do-site .txt-topo-site h1 span {
+  color: #4983ff;
 }
