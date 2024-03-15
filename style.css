@@ -254,3 +254,28 @@ form .btn-enviar input {
   transition: 0.2s;
   padding: 10px 15px;
 }
+footer {
+  padding: 40px 4%;
+  box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+footer .flex {
+  justify-content: space-between;
+}
+
+footer .line-footer {
+  padding: 20px 0;
+}
+
+.borda {
+  border-top: 2px solid #002aff;
+}
+
+footer .line-footer p i {
+  color: #ff3c00;
+  font-size: 22px;
+}
+
+footer .line-footer p a {
+  color: #fff;
+}
