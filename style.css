@@ -20,6 +20,9 @@ h2.titulo {
   font-size: 38px;
   text-align: center;
 }
+h2.titulo span {
+  color: #4983ff;
+}
 header {
   padding: 40px 4%;
 }
@@ -114,9 +117,9 @@ section.habilidades .flex {
   box-shadow: 0 0 20px #ffffff78;
 }
 
-.habilidades .habilidades-box i {
-  font-size: 70px;
-  color: #4983ff;
+.habilidades .habilidades-box img {
+  width: 70px;
+  height: 70px;
 }
 
 .habilidades .habilidades-box h3 {
