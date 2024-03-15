@@ -21,7 +21,7 @@ header > .interface {
   justify-content: space-between;
 }
 header a {
-  color: #5c5c5c;
+  color: #8e8e8e;
   text-decoration: none;
   display: inline-block;
   transition: 0.2s;
@@ -41,13 +41,13 @@ header nav.menu-desktop ul li {
   padding: 10px 40px;
   font-size: 18px;
   font-weight: 600;
-  background-color: #5f7aff;
+  background-color: #009bd3;
   border: 0;
   border-radius: 30px;
   cursor: pointer;
   transition: 0.2s;
 }
 header .btn-contato button:hover {
-  background-color: #4a5ff7;
+  background-color: #00bbff;
   transform: scale(1.05);
 }
