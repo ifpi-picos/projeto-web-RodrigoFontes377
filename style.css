@@ -346,4 +346,12 @@ footer .line-footer p a {
   section.portfolio .flex {
     gap: 60px;
   }
+  footer .flex {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  footer .line-footer {
+    text-align: center;
+  }
 }
