@@ -165,3 +165,19 @@ section.sobre .flex {
   margin: 0 5px;
   transition: 0.2s;
 }
+
+section.portfolio {
+  padding: 80px 4%;
+  box-shadow: 0 0 40px 10px #ffffff1d;
+}
+.img-port {
+  width: 360px;
+  height: 460px;
+  background-size: cover;
+  background-position: 100% 0%;
+  transition: 8s;
+  cursor: pointer;
+  border-radius: 40px;
+  position: relative;
+  background-color: blue;
+}
