@@ -50,7 +50,7 @@ header nav.menu-desktop ul li {
   cursor: pointer;
   transition: 0.2s;
 }
-header .btn-contato button:hover {
+.btn-contato button:hover {
   background-color: #00bbff;
   transform: scale(1.05);
 }
@@ -70,4 +70,21 @@ section.topo-do-site .flex {
 }
 .topo-do-site .txt-topo-site h1 span {
   color: #4983ff;
+}
+.topo-do-site .txt-topo-site p {
+  color: #fff;
+  margin: 40px 0;
+}
+.topo-do-site .img-topo-site img {
+  position: relative;
+  animation: flutuar 2s ease-in-out infinite alternate;
+}
+@keyframes flutuar {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: 30px;
+  }
 }
