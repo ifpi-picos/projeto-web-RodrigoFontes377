@@ -48,10 +48,6 @@ header nav.menu-desktop ul li {
   display: inline-block;
   padding: 0 40px;
 }
-button:hover {
-  background-color: #00aaff;
-  transform: scale(1.05);
-}
 .btn-contato button {
   padding: 10px 40px;
   font-size: 18px;
@@ -61,6 +57,22 @@ button:hover {
   border-radius: 30px;
   cursor: pointer;
   transition: 0.2s;
+}
+.btn-social button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: #4983ff;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #00d5ff;
+  transform: scale(1.05);
 }
 
 section.topo-do-site {
@@ -154,18 +166,6 @@ section.sobre .flex {
   text-align: justify;
 }
 
-.btn-social button {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  border: none;
-  background-color: #4983ff;
-  font-size: 22px;
-  cursor: pointer;
-  margin: 0 5px;
-  transition: 0.2s;
-}
-
 section.portfolio {
   padding: 80px 4%;
   box-shadow: 0 0 40px 10px #ffffff1d;
@@ -239,4 +239,18 @@ form textarea {
 form textarea {
   resize: none;
   max-height: 200px;
+}
+form .btn-enviar {
+  margin-top: 20px;
+  text-align: center;
+}
+
+form .btn-enviar input {
+  width: 120px;
+  background-color: #4983ff;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+  padding: 10px 15px;
 }
